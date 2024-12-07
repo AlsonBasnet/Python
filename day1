@@ -1,0 +1,5 @@
+import pyjokes
+#This is a random joke generate by using pyjokes module of python.
+
+joke=pyjokes.get_joke()
+print(joke)
