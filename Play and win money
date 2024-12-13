@@ -1,0 +1,30 @@
+#Play and win money.
+#You can add answers in ans of your question. Make sure to type them in capital, small and regular letter so that the user's answer wont be wrong.
+#You can also change the money according to your wish.
+ans={
+    "Alson":100, 
+    "Basnet":100,
+    "alson":100,
+    "ALSON":100,
+    "BASNET":100,
+    "basnet":100
+    }
+total_ans=0
+#Here you can modify your question.
+print("What is my name")
+q1=str(input("Enter your answer:"))
+if q1 in ans:
+    total_ans+=100
+    print("Your answer is correct")
+else:
+    print("Your answer is wrong")
+#Here you can modify your question.
+print("What is my caste")
+q2=str(input("Enter your second answer: "))
+if q2 in ans:
+    total_ans+=100
+    print("Your answer is correct")
+else:
+    print("Your answer is incorrect")
+print("Total money you have earned is:",total_ans)
+
